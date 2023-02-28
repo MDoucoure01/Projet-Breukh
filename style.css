@@ -1,0 +1,247 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+.ICONE
+{
+    color: #D20024;
+}
+.petit_nav
+{
+    color: white;
+    background-color: #1E1F29;
+    display: flex;
+    justify-content: space-around;
+}
+.adresse
+{
+    display: flex;
+    width: 40%;
+    justify-content: space-around;
+}
+.payement
+{
+    display: flex;
+    width: 20%;
+    justify-content: space-around;
+}
+
+#nav
+{
+    width: 100%;
+    color: white;
+    background-color: black;
+    border-bottom: 2px solid red;
+    display: flex;
+    
+}
+.bloc
+{
+
+    width: 80%;
+    display: flex;
+    justify-content: space-around;
+    margin-left: 12%;
+
+}
+.nom_site
+{
+    font-size: 3em;
+    width: 25%;
+
+}
+.point,.Home,.lap
+{
+    color: red;
+}
+.recherche_barre
+{
+    width: 35%;
+    display: flex;
+    justify-content: space-between;
+}
+input[type="text"]
+{
+    height: 35%;
+    display: flex;
+    margin: auto;
+}
+.all,.Search
+{
+    display: flex;
+    margin: auto;
+}
+.icone
+{
+    width: 15%;
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+}
+#nav_bas
+{
+    background-color: white;
+    height: 3em;
+    border-bottom: 2px solid whitesmoke;
+}
+.nav_b
+{
+    height: 100%;
+    width: 50%;
+    display: flex;
+    margin-left: 12%;
+    justify-content: space-between;
+    align-items: center;
+}
+.Home,.lap
+{
+    border-bottom: 2px solid red;
+}
+.bloc1_image
+{
+    display: flex;
+    margin-top: 1.5%;
+    width: 75%;
+    margin-left: 13%;
+    justify-content: space-between;
+}
+.ordi,.cam,.cas
+{
+    height: 15em;
+    width: 20em;
+}
+
+#choix
+{
+    width: 40%;
+}
+.mileu,#choix
+{
+    display: flex;
+    justify-content: space-around;
+}
+.mileu
+{
+    margin-top: 1.5%;
+    align-items: center;
+}
+.text1
+{
+    font-weight: bold;
+    font-size: 1.5em;
+}
+#blocImage
+{
+    display: flex;
+    margin-top: 1.5%;
+    width: 75%;
+    margin-left: 13%;
+    justify-content: space-between;
+}
+#b_I1,#b_I2,#b_I3,#b_I4
+{
+    height: 15em;
+    margin: 10%;
+}
+.hei
+{
+    position: relative;
+}
+#toile::before,#toile1::before,#toile2::before
+{
+    font-size: 1.5em;
+    color: white;
+    font-weight: bold;
+    position: absolute;
+    top: -9em;
+    left: -1.4em;
+}
+#toile2::before{
+    content: "Camera Collection";
+}
+#toile1::before{
+    content: "Accessoire Collection";
+}
+#toile::before{
+    content: "Laptop Collection";
+}
+#toile,#toile1,#toile2
+{
+    position: absolute;
+    top: 0%;
+    border-top: 15em solid rgb(255, 0, 0,0.8);
+    border-right: 200px solid transparent;
+    border-left: 70px solid rgb(255, 0, 0,0.8);
+}
+.milieu
+{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 1.5em;
+    margin-left: 12%;
+    width: 76%;
+}
+.milieu31,.milieu32,.milieu33,.milieu34
+{
+    display: flex;
+    flex-direction: column;
+    border: 1px solid gray;
+    height: 500px;
+    width: 300px;
+}
+.photo2
+{
+    width: 200px;
+    margin: 50px;
+}
+.Cat
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.Cat1
+{
+    font-size:medium;
+    color: gray;
+    margin-bottom: 3%;
+}
+.Cat2
+{
+    font-weight: bold;
+    margin-bottom: 3%;
+}
+.Cat3
+{
+    color: red;
+    margin-bottom: 3%;
+}
+.Cat4
+{
+    color: gray;
+    text-decoration: line-through;
+}
+.Catt
+{
+    display: flex;
+    margin-top: 5%;
+    align-items: center;
+}
+.trait
+{
+    border-bottom: 1px solid gray;
+    width: 4em;
+}
+.finMilieu
+{
+    width: 50%;
+    margin-top: 10%;
+    display: flex;
+    justify-content: center;
+    justify-content: space-around; 
+    padding: 0 25% 0 25%;
+}
+
