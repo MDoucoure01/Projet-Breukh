@@ -244,4 +244,35 @@ input[type="text"]
     justify-content: space-around; 
     padding: 0 25% 0 25%;
 }
-
+.ic
+{
+    color: white;
+    display: flex;
+    position: relative;
+    top: -55%;
+    left: 10%;
+}
+.carre
+{
+    color: white;
+    background-color: red;
+    height: 5%;
+    width: 15%;
+    display: flex;
+    position: relative;
+    align-items: center;
+    top: -58%;
+    left: 82%;
+}
+.carre1
+{
+    border: 1px solid red;
+    color: red;
+    height: 5%;
+    width: 15%;
+    display: flex;
+    position: relative;
+    align-items: center;
+    top: -62.5%;
+    left: 64%;
+}

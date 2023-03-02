@@ -1,0 +1,116 @@
+/* #carre1_1 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    border: 1px solid transparent;
+  }
+  
+  #carre1_1:hover {
+    border-left: 1px solid green;
+    border-right: 1px solid green;
+    transition: border 0.5s ease-in-out;
+  }
+  
+  #carre1_2 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 80px;
+    height: 80px;
+    background-color: red;
+    border: 1px solid transparent;
+  }
+  
+  #carre1_2:hover {
+    border-top: 1px solid green;
+    border-bottom: 1px solid green;
+    transition: border 0.5s ease-in-out;
+  }
+  
+  #carre2_1 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    border: 1px solid transparent;
+  }
+  
+  #carre2_1:hover {
+    border-left: 1px solid green;
+    border-right: 1px solid green;
+    transition: border 0.5s ease-in-out;
+  }
+  
+  #carre2_2 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 80px;
+    height: 80px;
+    background-color: #fff;
+    border: 1px solid transparent;
+  }
+  
+  #carre2_2:hover {
+    border-top: 1px solid green;
+    border-bottom: 1px solid green;
+    transition: border 0.5s ease-in-out;
+  } */
+.trens
+{
+    display: flex;
+    position: relative;
+    width: 200px;
+    height: 200px;
+    margin: auto;
+    margin-top: 20%;
+    border: 7px solid forestgreen;
+}
+#carre,#carre2{
+    height: 200px;
+    width: 200px;
+    display: flex;
+    background-color: red;
+}
+#carre
+{
+    position: absolute;
+    left: -0.5%;
+    transform: rotate(45deg);
+}
+#carre::after
+{
+    
+    position: absolute;
+    content: "";
+    border-top: 4px solid blue;
+    width: 100%;
+}
+#carre::before
+{
+    content: "";
+    border-bottom: 4px solid fuchsia;
+    width: 100%;
+}
+#carre2::after
+{
+    position: absolute;
+    content: "";
+    border-top: 4px solid deeppink;
+    width: 100%;
+}
+#carre2::before
+{
+    content: "";
+    border-bottom: 4px solid black;
+    width: 100%;
+}
